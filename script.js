@@ -1,3 +1,12 @@
-name = 'lexi';
-let name;
-console.log(name);
+// name = 'lexi';
+// var name;
+// console.log(name);
+
+
+
+setName();
+
+function setName() {
+    var name = 'lexi';
+    console.log(name);
+}
