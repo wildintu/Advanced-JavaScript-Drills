@@ -21,16 +21,24 @@
 
 fruits = ['bananas', 'apples', 'mango']
 
-pickFruit();
+whatever();
+
+function whatever() {
+    console.log("hello lexi")
+}
 
 function pickFruit() {
     let favFruit = fruits[2];
+    let leastFav = fruits[1];
     console.log(fruits[0]);
     function pickFavFruit() {
         console.log(favFruit);
     }
     pickFavFruit();
+    //console.log(leavtFav);
+    
 }
 
+pickFruit();
 
 
