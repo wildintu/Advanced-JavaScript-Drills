@@ -26,10 +26,11 @@ pickFruit();
 function pickFruit() {
     let favFruit = fruits[2];
     console.log(fruits[0]);
+    function pickFavFruit() {
+        console.log(favFruit);
+    }
+    pickFavFruit();
 }
 
-pickFavFruit();
 
-function pickFavFruit() {
-    console.log(favFruit);
-}
+
