@@ -41,4 +41,10 @@ function pickFruit() {
 
 pickFruit();
 
+yeahBabe();
+
+let yeahBabe = function() {
+    alert('Hey You');
+}
+
 
