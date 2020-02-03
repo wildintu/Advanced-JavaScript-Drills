@@ -19,11 +19,18 @@
 //     return answer;
 // }
 
-fruits = ['bananas', 'apples', 'oranges']
+fruits = ['bananas', 'apples', 'mango']
 let favFruit;
 
 pickFruit();
 
 function pickFruit() {
+    favFruit = fruits[2];
     console.log(fruits[0]);
+}
+
+pickFavFruit();
+
+function pickFavFruit() {
+    console.log(favFruit);
 }
