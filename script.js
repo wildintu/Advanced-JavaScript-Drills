@@ -20,12 +20,11 @@
 // }
 
 fruits = ['bananas', 'apples', 'mango']
-let favFruit;
 
 pickFruit();
 
 function pickFruit() {
-    favFruit = fruits[2];
+    let favFruit = fruits[2];
     console.log(fruits[0]);
 }
 
